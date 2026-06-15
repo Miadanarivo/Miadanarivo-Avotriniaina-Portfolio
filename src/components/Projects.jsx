@@ -24,6 +24,17 @@ const projets = [
     border: 'border-yellow-800/40',
     github: 'https://github.com/Miadanarivo',
   },
+  // UI/UX Design
+  {
+    categorie: 'UI/UX Design',
+    couleurCat: 'text-pink-400',
+    titre: 'Gestion de Restaurant',
+    description: 'Conception UI/UX d\'une application de gestion de restaurant avec Figma. Design des maquettes, wireframes et prototypes interactifs pour la prise de commande, gestion des tables et tableau de bord administrateur.',
+    techs: ['Figma', 'UI/UX', 'Wireframe', 'Prototype'],
+    couleur: 'from-pink-600/20 to-fuchsia-600/10',
+    border: 'border-pink-800/40',
+    github: 'https://github.com/Miadanarivo',
+  },
   // Dev Mobile
   {
     categorie: 'Dev Mobile',
@@ -99,7 +110,7 @@ const projets = [
   },
 ]
 
-const categories = ['Tous', 'Java Avancé', 'Dev Mobile', 'JavaScript Avancé', 'Projet Universitaire']
+const categories = ['Tous', 'Java Avancé', 'Dev Mobile', 'JavaScript Avancé', 'UI/UX Design', 'Projet Universitaire']
 
 import { useState } from 'react'
 

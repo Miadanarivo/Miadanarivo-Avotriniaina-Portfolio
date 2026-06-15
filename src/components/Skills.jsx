@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaJava, FaPython, FaJs, FaPhp, FaHtml5, FaDatabase, FaGithub, FaReact } from 'react-icons/fa'
-import { SiSpringboot, SiFlutter, SiNestjs, SiPostgresql } from "react-icons/si"
+import { SiSpringboot, SiFlutter, SiNestjs, SiPostgresql, SiNextdotjs, SiAngular, SiFigma } from "react-icons/si"
 import Background from './Background'
 
 const categories = [
@@ -14,6 +14,8 @@ const categories = [
       { nom: 'HTML & CSS', niveau: 85, icon: <FaHtml5 />, desc: 'Interfaces web responsives' },
       { nom: 'JavaScript', niveau: 75, icon: <FaJs />, desc: 'Langage web dynamique' },
       { nom: 'React.js', niveau: 80, icon: <FaReact />, desc: 'Framework UI moderne' },
+      { nom: 'Next.js', niveau: 70, icon: <SiNextdotjs />, desc: 'Framework React fullstack' },
+      { nom: 'Angular', niveau: 60, icon: <SiAngular />, desc: 'Framework frontend Google' },
     ],
   },
   {
@@ -58,8 +60,22 @@ const categories = [
     couleur: 'from-gray-500 to-gray-400',
     competences: [
       { nom: 'Git & GitHub', niveau: 85, icon: <FaGithub />, desc: 'Versioning et collaboration' },
+      { nom: 'VS Code', niveau: 85, icon: <span className="text-xs">💻</span>, desc: 'Éditeur de code principal' },
+      { nom: 'Figma', niveau: 60, icon: <SiFigma />, desc: 'Design UI/UX et prototypage' },
+      { nom: 'Visual Studio', niveau: 70, icon: <span className="font-bold text-xs">VS</span>, desc: 'IDE Microsoft Community' },
       { nom: 'Cisco Packet Tracer', niveau: 65, icon: <span className="text-xs">📡</span>, desc: 'Simulation réseau' },
       { nom: 'Word & ACCESS', niveau: 80, icon: <span className="text-xs font-bold">W</span>, desc: 'Suite bureautique' },
+    ],
+  },
+  {
+    id: 'design',
+    nom: 'UI/UX Design',
+    emoji: '🎭',
+    couleur: 'from-pink-500 to-fuchsia-500',
+    competences: [
+      { nom: 'UI/UX Design', niveau: 60, icon: <SiFigma />, desc: 'Conception d\'interfaces utilisateur' },
+      { nom: 'Wireframing', niveau: 65, icon: <span className="text-xs">📐</span>, desc: 'Maquettes et prototypes' },
+      { nom: 'Figma', niveau: 60, icon: <SiFigma />, desc: 'Outil de design collaboratif' },
     ],
   },
   {

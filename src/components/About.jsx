@@ -213,7 +213,7 @@ export default function About() {
 
               {/* Bio */}
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                Étudiant en <span className="text-violet-400 font-semibold">3ème année de Licence à l'EMIT</span> (Université Fianarantsoa), passionné par le développement d'applications. Je maîtrise plusieurs langages de programmation et j'ai réalisé des projets concrets en Java, Spring Boot, React.js, Flutter et Nest.js.
+                Étudiant en <span className="text-violet-400 font-semibold">3ème année de Licence à l'Ecole de Management et d'Innovation Technologie ou EMIT </span> (Université Fianarantsoa), passionné par le développement d'applications. Je maîtrise plusieurs langages de programmation et j'ai réalisé des projets concrets en Java, Spring Boot, React.js, Flutter et Nest.js.
               </p>
 
               {/* Infos */}
